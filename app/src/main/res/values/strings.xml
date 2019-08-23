@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">门口机</string>
+    <string name="hospital_name">深圳市人民医院</string>
+    <string name="btn1">呼叫医生站</string>
+    <string name="btn2">呼叫护士站</string>
+    <string name="btn3">进入护理</string>
+
+    <string name="time_hm">09:00</string>
+    <string name="time_ymd">2019/08/02</string>
+    <string name="time_e">星期五</string>
+</resources>

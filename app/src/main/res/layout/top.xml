@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mvp.view.MainActivity">
+
+<ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/hopxital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logo"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/logo"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/hospital_name"
+        android:textColor="@color/title"
+        android:textSize="34px"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/time_hm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:text="@string/time_hm"
+        android:textColor="@color/title"
+        android:textSize="35px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/time_ymd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/time_hm"
+        android:layout_toLeftOf="@+id/time_hm"
+        android:singleLine="true"
+        android:text="@string/time_ymd"
+        android:textColor="@color/title"
+        android:textSize="18px" />
+
+    <TextView
+        android:id="@+id/time_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/time_hm"
+        android:layout_toLeftOf="@+id/time_hm"
+        android:singleLine="true"
+        android:text="@string/time_e"
+        android:textColor="@color/title"
+        android:textSize="16px" />
+
+
+
+</RelativeLayout>
